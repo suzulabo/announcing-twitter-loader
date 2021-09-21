@@ -1,0 +1,3 @@
+- id: '957796908' # 5分間隔時報bot
+  name: bot_jihou_5min
+  max_tweets: 100
