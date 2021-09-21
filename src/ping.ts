@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ghCotent, gitChangedFiles, gitPush } from './git';
 import { getDataFilename, loadUsersConfig, logger } from './utils';
 
-const PING_TIMEOUT = 10 * 1000;
+const PING_TIMEOUT = 30 * 1000;
 
 const main = async () => {
   const changedFiles = await gitChangedFiles();
